@@ -1,0 +1,68 @@
+check if process is running
+if so, switch to it,
+if no run it
+
+
+
+
+
+
+SetTitleMatchMode, 2
+Process, Exist, firefox.exe
+if !ErrorLevel = 0
+{
+    IfWinNotActive, Mozilla Firefox,
+    WinActivate, Mozilla Firefox, 
+    WinWaitActive, Mozilla Firefox, 
+    Send, ^t
+}
+else
+{
+    Run Firefox
+    WinWait, Mozilla Firefox,
+}
+; some more commands will go here once the above is finished
+return
+
+
+
+
+
+
+
+
+
+
+
+
+SetTitleMatchMode, 2
+
+^F::
+IfWinExist, Mozilla
+{
+    WinActivate
+    Send, ^t               ; firefox shortcut for new tab
+}
+else
+    Run, %A_ProgramFiles%\Mozilla Firefox\firefox.exe
+return
+
+
+
+
+
+
+
+
+
+
+If ProcessExist("explorer.exe")
+	MsgBox Explorer.exe exists.
+
+If !ProcessExist("this_will_not_exist.exe")
+	MsgBox Ofcourse it doesn't exist.
+
+ProcessExist(Name){
+	Process,Exist,%Name%
+	return Errorlevel
+}

@@ -1,0 +1,29 @@
+
+1 VERSIONINFO
+FILEVERSION 3,11,0,0
+PRODUCTVERSION 3,11,0,0
+FILEOS 0x4
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "Comments", "Win7Key is using AutoHotKey specially agressive keyboard-hook(*) to override the default Win+X key combination, Designed for Windows 7, to override a only new Win+X combination."
+		VALUE "CompanyName", "EladKarako"
+		VALUE "FileDescription", "Win7Key"
+		VALUE "FileVersion", "3.11.0"
+		VALUE "InternalName", "Win7Key"
+		VALUE "LegalCopyright", "© Elad Karako Freeware "
+		VALUE "LegalTrademarks", "Elad Karako® Win7Key"
+		VALUE "OriginalFilename", "Win7Key.exe"
+		VALUE "ProductName", "Elad Karako® Win7Key"
+		VALUE "ProductVersion", "3.11.0"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}

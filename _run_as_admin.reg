@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers]
+"D:\\Software\\AutoHotKey\\AppsKeyToRWin.exe"="RUNASADMIN"
+"D:\\Software\\AutoHotKey\\backspace_delete_back_word_fix.exe"="RUNASADMIN"
+"D:\\Software\\AutoHotKey\\disable_key-combination__CtrlD_on_specific_scope.exe"="RUNASADMIN"
+"D:\\Software\\AutoHotKey\\disable_key-combination__CtrlZ_on_specific_scope.exe"="RUNASADMIN"
+"D:\\Software\\AutoHotKey\\disable_key__history_forward_history_back.exe"="RUNASADMIN"
+"D:\\Software\\AutoHotKey\\disable_mouse_toggle_f8_quit_f1.exe"="RUNASADMIN"
+"D:\\Software\\AutoHotKey\\disable_mouse_while_typing.exe"="RUNASADMIN"
+"D:\\Software\\AutoHotKey\\Win7Key.exe"="RUNASADMIN"
+"D:\\Software\\AutoHotKey\\_run.exe"="RUNASADMIN"

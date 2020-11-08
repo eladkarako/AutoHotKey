@@ -1,0 +1,29 @@
+
+1 VERSIONINFO
+FILEVERSION 3,11,0,0
+PRODUCTVERSION 3,11,0,0
+FILEOS 0x4
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "Comments", "Win7 WinKey Override"
+		VALUE "CompanyName", "EladKarako"
+		VALUE "FileDescription", "Win7 WinKey Override"
+		VALUE "FileVersion", "3.11.0"
+		VALUE "InternalName", "Win7 WinKey Override"
+		VALUE "LegalCopyright", "© Elad Karako Freeware "
+		VALUE "LegalTrademarks", "Elad Karako® Win7 WinKey Override"
+		VALUE "OriginalFilename", "Win7 WinKey Override.exe"
+		VALUE "ProductName", "Elad Karako® Win7 WinKey Override"
+		VALUE "ProductVersion", "3.11.0"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}

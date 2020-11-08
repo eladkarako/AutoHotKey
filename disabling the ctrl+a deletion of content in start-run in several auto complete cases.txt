@@ -1,0 +1,41 @@
+D:\Software\Chromium\Run Stuff\runC.exe
+
+
+replace [CTRL]+[A] in Start->Run... 
+to [CTRL]+[HOME], [CTRL]+[SHIFT]+[END], 
+since [CTRL]+[A] deletes any entered content.
+
+
+
+>>>>>>>>>>( Window Title & Class )<<<<<<<<<<<
+Run
+ahk_class #32770
+
+>>>>>>>>>>>>( Mouse Position )<<<<<<<<<<<<<
+On Screen:	147, 553  (less often used)
+In Active Window:	142, 112
+
+>>>>>>>>>( Now Under Mouse Cursor )<<<<<<<<
+ClassNN:	Edit1
+Text:	
+Color:	0xFFFFFF  (Blue=FF Green=FF Red=FF)
+
+>>>>>>>>>>( Active Window Position )<<<<<<<<<<
+left: 5     top: 441     width: 417     height: 239
+
+>>>>>>>>>>>( Status Bar Text )<<<<<<<<<<
+
+>>>>>>>>>>>( Visible Window Text )<<<<<<<<<<<
+Type the name of a program, folder, document, or Internet resource, and Windows will open it for you.
+&Open:
+This task will be created with administrative privileges.
+OK
+Cancel
+&Browse...
+
+>>>>>>>>>>>( Hidden Window Text )<<<<<<<<<<<
+Run in separate &memory space
+
+>>>>( TitleMatchMode=slow Visible Text )<<<<
+
+>>>>( TitleMatchMode=slow Hidden Text )<<<<

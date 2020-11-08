@@ -1,0 +1,46 @@
+if WindowUnderMouseCursor = MSTaskListWClass1
+{
+
+#IfWinActive MSTaskListWClass1
+{
+  RButton::^+RButton
+}
+
+^  	Control
++ 	Shift
+
+
+ahk_class Shell_TrayWnd
+ClassNN:	MSTaskListWClass1
+
+>>>>>>>>>>( Window Title & Class )<<<<<<<<<<<
+
+ahk_class Shell_TrayWnd
+
+>>>>>>>>>>>>( Mouse Position )<<<<<<<<<<<<<
+On Screen:	786, 752  (less often used)
+In Active Window:	788, 12
+
+>>>>>>>>>( Now Under Mouse Cursor )<<<<<<<<
+ClassNN:	MSTaskListWClass1
+Text:	Running applications
+Color:	0xC8D0D4  (Blue=C8 Green=D0 Red=D4)
+
+>>>>>>>>>>( Active Window Position )<<<<<<<<<<
+left: -2     top: 740     width: 1028     height: 30
+
+>>>>>>>>>>>( Status Bar Text )<<<<<<<<<<
+
+>>>>>>>>>>>( Visible Window Text )<<<<<<<<<<<
+01:50
+User Promoted Notification Area
+System Promoted Notification Area
+Running applications
+Running applications
+?????? ???
+
+>>>>>>>>>>>( Hidden Window Text )<<<<<<<<<<<
+
+>>>>( TitleMatchMode=slow Visible Text )<<<<
+
+>>>>( TitleMatchMode=slow Hidden Text )<<<<

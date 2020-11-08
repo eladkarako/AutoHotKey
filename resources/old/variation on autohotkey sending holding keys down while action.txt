@@ -1,0 +1,15 @@
+RButton::
+{
+    Sendinput, {Shift down}{RButton down}
+    keywait, RButton
+    Sendinput, {RButton up}{Shift up}
+}
+Return
+
+
+
+	
+I don't understand what your problems are, but this little piece of code works for me:
+
+AppsKey::Send, {SHIFT down}{CTRL down}
+AppsKey up::Send, {CTRL up}{SHIFT up}
