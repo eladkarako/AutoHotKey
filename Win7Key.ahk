@@ -14,7 +14,7 @@
 #BACKSPACE::  Run   D:\software\Notepad2\Notepad2.exe                                           ; [WIN] + [BACKSPACE]           -> Notepad2
 #+BACKSPACE:: Run   D:\software\Notepad2\Notepad2.exe                                           ; [WIN] + [SHIFT] + [BACKSPACE] -> Notepad2
 #+DEL::       Run   D:\Software\All Security\CCleaner\CCleaner.exe                              ; [WIN] + [SHIFT] + [DEL]       -> CCleaner
-#+c::         Run   D:\Software\Chromium\new\run.exe                                            ; [WIN] + [SHIFT] + [C]         -> Chromium shellexecute wrap that uses INI for the arguments.
+#+c::         Run   D:\Software\Chromium\chrome_dev\run.exe                                     ; [WIN] + [SHIFT] + [C]         -> Chromium shellexecute wrap that uses INI for the arguments.
 #+d::         Run   \\karakocom\c\Documents and Settings\Elad\Desktop                           ; [WIN] + [SHIFT] + [D]         -> \\KarakoCom desktop
 #+e::         Run   C:\Program Files\Internet Explorer\iexplore.exe                             ; [WIN] + [SHIFT] + [E]         -> Internet-Explorer
 #+l::         Run   D:\Software\Locate32\locate32.lnk                                           ; [WIN] + [SHIFT] + [L]         -> Locate32                    need to pre-set both program (run as admin) and shortcut (properties, advance, run as admin), otherwise db writing has an error.
